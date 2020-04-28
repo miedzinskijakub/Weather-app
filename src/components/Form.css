@@ -1,0 +1,22 @@
+header{
+    display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px 15px 15px;
+}
+input{
+width: 100%;
+max-width: 280px;
+border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 0 16px 0 16px;
+border-bottom: 3px solid orange;
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-weight: 300;
+margin-top: 10%;
+text-align: center;
+}

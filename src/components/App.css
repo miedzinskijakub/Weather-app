@@ -1,0 +1,21 @@
+
+.App input{
+    position: fixed;
+       height: 30px;
+    min-height: 30px;
+    width: 20%;
+    top: 20%;
+    left: 50%;
+    margin-top: -2%;
+    margin-left: -10%;
+       text-align: center;
+    border: none;
+    border-radius: 0 16px 0 16px;
+    border-bottom: 5px solid #3c819e;
+    color:black;
+   background-color: rgba(255, 255, 255, 0.3);
+   font-size: 20pt;
+}
+
+
+
