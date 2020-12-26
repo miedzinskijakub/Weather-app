@@ -69,8 +69,13 @@ componentDidUpdate(prevProps, prevState){
 
   if(this.state.value.length === 0) return;
   if(prevState.value !== this.state.value){
-    
-    const API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${APIKey}&units=metric`;
+
+    if (location.protocol === 'http:') {
+      var API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${APIKey}&units=metric`;
+    }else{
+      API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${APIKey}&units=metric`;
+    }
+    //const API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=${APIKey}&units=metric`;
 
   fetch(API)
   .then(response => {
