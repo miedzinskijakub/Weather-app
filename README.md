@@ -19,8 +19,7 @@ A simple and lightweight application for checking the current weather for a give
 | Tech                                                    | Description                              |
 | ------------------------------------------------------- | ---------------------------------------- |
 | [React]()                           | Used to build the application   |
-| [CSS](X)                           | Used to stylize the application
-   |
+| [CSS](X)                           | Used to stylize the application|
 
 
 
