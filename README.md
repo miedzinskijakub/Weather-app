@@ -28,8 +28,8 @@ Clone this repo to your desktop and run  `npm install`  to install all the depen
 Once the dependencies are installed, you can run  `npm start`  to start the application. You will then be able to access it at localhost:3000
 ## Available scripts
 
-| Command                   | Description                   |     |
-| ------------------------- | ----------------------------- | --- |
+| Command                   | Description                   |     
+| ------------------------- | ----------------------------- | 
 | `npm start`           | Open local server             |     
 | `npm build`           | Create optimized build        |     
 | `npm test`            | Run tests                     |     
